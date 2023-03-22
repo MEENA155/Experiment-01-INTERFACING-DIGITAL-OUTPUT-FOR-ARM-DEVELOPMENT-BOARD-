@@ -79,6 +79,7 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+```
 #include "main.h"
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
@@ -161,7 +162,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 }
 #endif
 
-
+```
 ## Output  :
 ### LED ON:
  ![226685889-803bf3ad-e520-4fef-8f90-0006be34e528](https://user-images.githubusercontent.com/94677128/226789116-d4e5aad1-6ae9-44e2-b688-6a276092b49c.jpg)
